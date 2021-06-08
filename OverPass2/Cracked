@@ -1,0 +1,12 @@
+Using default input encoding: UTF-8
+Loaded 5 password hashes with 5 different salts (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+secret12         (bee)
+abcd123          (szymex)
+1qaz2wsx         (muirland)
+secuirty3        (paradox)
+4g 0:00:00:00 DONE (2021-05-10 11:06) 9.090g/s 504.5p/s 2522c/s 2522C/s Spring2017..starwars
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

@@ -1,0 +1,1 @@
+ssh -o StrictHostKeyChecking=no -p 13394 10.10.181.146

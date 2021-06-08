@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Sun Jun  6 10:50:13 2021 as: nmap -oA initial_10.10.137.28 10.10.137.28
+Host: 10.10.137.28 ()	Status: Up
+Host: 10.10.137.28 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (997)
+# Nmap done at Sun Jun  6 10:50:58 2021 -- 1 IP address (1 host up) scanned in 45.09 seconds
