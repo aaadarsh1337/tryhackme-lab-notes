@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Fri Jun 11 15:42:19 2021 as: nmap -p-1000 -oA nmap/initial_10.10.9.117 10.10.9.117 -->
+<nmaprun scanner="nmap" args="nmap -p-1000 -oA nmap/initial_10.10.9.117 10.10.9.117" start="1623426139" startstr="Fri Jun 11 15:42:19 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1-1000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.9.117" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="Connect Scan" time="1623426209" percent="59.70" remaining="48" etc="1623426256"/>
+<taskprogress task="Connect Scan" time="1623426254" percent="88.35" remaining="16" etc="1623426269"/>
+<host starttime="1623426139" endtime="1623426294"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.9.117" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="998">
+<extrareasons reason="no-responses" count="867"/>
+<extrareasons reason="host-unreaches" count="131"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="4965031" rttvar="2000000" to="10000000"/>
+</host>
+<runstats><finished time="1623426294" timestr="Fri Jun 11 15:44:54 2021" summary="Nmap done at Fri Jun 11 15:44:54 2021; 1 IP address (1 host up) scanned in 155.35 seconds" elapsed="155.35" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
