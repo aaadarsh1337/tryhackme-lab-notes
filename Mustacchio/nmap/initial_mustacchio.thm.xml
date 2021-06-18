@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jun 16 15:16:14 2021 as: nmap -p-1000 -oA nmap/initial_mustacchio.thm mustacchio.thm -->
+<nmaprun scanner="nmap" args="nmap -p-1000 -oA nmap/initial_mustacchio.thm mustacchio.thm" start="1623856574" startstr="Wed Jun 16 15:16:14 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1-1000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.123.240" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mustacchio.thm" type="user"/>
+</hostnames>
+</hosthint>
+<host starttime="1623856574" endtime="1623856604"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.123.240" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mustacchio.thm" type="user"/>
+<hostname name="mustacchio.thm" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="998">
+<extrareasons reason="no-responses" count="998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="237938" rttvar="38989" to="393894"/>
+</host>
+<runstats><finished time="1623856604" timestr="Wed Jun 16 15:16:44 2021" summary="Nmap done at Wed Jun 16 15:16:44 2021; 1 IP address (1 host up) scanned in 30.07 seconds" elapsed="30.07" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
