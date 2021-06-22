@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Sat Jun 19 11:34:14 2021 as: nmap -p-1000 -oA nmap/initial_10.10.238.110 10.10.238.110
+Nmap scan report for 10.10.238.110
+Host is up (0.56s latency).
+Not shown: 996 closed ports
+PORT   STATE    SERVICE
+1/tcp  filtered tcpmux
+22/tcp open     ssh
+39/tcp filtered rlp
+80/tcp open     http
+
+# Nmap done at Sat Jun 19 11:37:51 2021 -- 1 IP address (1 host up) scanned in 217.04 seconds
