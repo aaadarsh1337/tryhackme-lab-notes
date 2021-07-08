@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sat Jun 26 14:55:55 2021 as: nmap -p-1000 -oA nmap/initial_10.10.175.239 10.10.175.239 -->
+<nmaprun scanner="nmap" args="nmap -p-1000 -oA nmap/initial_10.10.175.239 10.10.175.239" start="1624719355" startstr="Sat Jun 26 14:55:55 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1-1000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.175.239" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1624719355" endtime="1624719428"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.10.175.239" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="996">
+<extrareasons reason="conn-refused" count="996"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="411"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="rmt" method="table" conf="3"/></port>
+<port protocol="tcp" portid="943"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<times srtt="244626" rttvar="22704" to="335442"/>
+</host>
+<runstats><finished time="1624719428" timestr="Sat Jun 26 14:57:08 2021" summary="Nmap done at Sat Jun 26 14:57:08 2021; 1 IP address (1 host up) scanned in 72.63 seconds" elapsed="72.63" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

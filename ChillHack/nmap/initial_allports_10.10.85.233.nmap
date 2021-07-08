@@ -1,0 +1,1 @@
+# Nmap 7.91 scan initiated Thu Jul  8 15:25:06 2021 as: nmap -p- -oA nmap/initial_allports_10.10.85.233 10.10.85.233

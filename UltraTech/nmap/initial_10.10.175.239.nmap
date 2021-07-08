@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Sat Jun 26 14:55:55 2021 as: nmap -p-1000 -oA nmap/initial_10.10.175.239 10.10.175.239
+Nmap scan report for 10.10.175.239
+Host is up (0.24s latency).
+Not shown: 996 closed ports
+PORT    STATE    SERVICE
+21/tcp  open     ftp
+22/tcp  open     ssh
+411/tcp filtered rmt
+943/tcp filtered unknown
+
+# Nmap done at Sat Jun 26 14:57:08 2021 -- 1 IP address (1 host up) scanned in 72.63 seconds
