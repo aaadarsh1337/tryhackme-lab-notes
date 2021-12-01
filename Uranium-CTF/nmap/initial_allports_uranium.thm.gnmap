@@ -1,0 +1,1 @@
+# Nmap 7.91 scan initiated Tue Aug 24 21:03:34 2021 as: nmap -p- -oA nmap/initial_allports_uranium.thm uranium.thm

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Nov  3 11:11:28 2021 as: nmap -oA nmap/initial -sC -sV -A -vvv -Pn -p- 10.10.251.193 -->
+<nmaprun scanner="nmap" args="nmap -oA nmap/initial -sC -sV -A -vvv -Pn -p- 10.10.251.193" start="1635937888" startstr="Wed Nov  3 11:11:28 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1635937888"/>
+<taskend task="NSE" time="1635937888"/>
+<taskbegin task="NSE" time="1635937888"/>
+<taskend task="NSE" time="1635937888"/>
+<taskbegin task="NSE" time="1635937888"/>
+<taskend task="NSE" time="1635937888"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1635937888"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1635937888"/>
+<taskbegin task="Connect Scan" time="1635937888"/>
+<taskprogress task="Connect Scan" time="1635937919" percent="0.86"/>
+<taskprogress task="Connect Scan" time="1635937927" percent="0.93"/>
+<taskprogress task="Connect Scan" time="1635937957" percent="1.24" remaining="5514" etc="1635943471"/>
+<taskprogress task="Connect Scan" time="1635937987" percent="1.56" remaining="6231" etc="1635944218"/>
+<taskprogress task="Connect Scan" time="1635938017" percent="1.80" remaining="7039" etc="1635945055"/>
+<taskprogress task="Connect Scan" time="1635938062" percent="2.34" remaining="7253" etc="1635945314"/>
+<taskprogress task="Connect Scan" time="1635938345" percent="6.24" remaining="6865" etc="1635945210"/>
+<taskprogress task="Connect Scan" time="1635938434" percent="7.76" remaining="6494" etc="1635944928"/>
+<taskprogress task="Connect Scan" time="1635938500" percent="9.06" remaining="6142" etc="1635944641"/>
+<taskprogress task="Connect Scan" time="1635938567" percent="10.50" remaining="5786" etc="1635944353"/>
+<taskprogress task="Connect Scan" time="1635938652" percent="12.32" remaining="5435" etc="1635944087"/>
+<taskprogress task="Connect Scan" time="1635938761" percent="14.56" remaining="5122" etc="1635943883"/>
+<taskprogress task="Connect Scan" time="1635938884" percent="17.15" remaining="4813" etc="1635943697"/>
+<taskprogress task="Connect Scan" time="1635939074" percent="20.81" remaining="4512" etc="1635943586"/>
+<taskprogress task="Connect Scan" time="1635939166" percent="23.25" remaining="4220" etc="1635943386"/>
+<taskprogress task="Connect Scan" time="1635939278" percent="26.08" remaining="3940" etc="1635943217"/>
+<taskprogress task="Connect Scan" time="1635939415" percent="29.38" remaining="3671" etc="1635943086"/>
+<taskprogress task="Connect Scan" time="1635939500" percent="32.10" remaining="3410" etc="1635942910"/>
+<taskprogress task="Connect Scan" time="1635939608" percent="35.36" remaining="3145" etc="1635942752"/>
+<taskprogress task="Connect Scan" time="1635939662" percent="38.01" remaining="2894" etc="1635942555"/>
+<taskprogress task="Connect Scan" time="1635939695" percent="40.63" remaining="2641" etc="1635942335"/>
+<taskprogress task="Connect Scan" time="1635939746" percent="43.50" remaining="2414" etc="1635942159"/>
+<taskprogress task="Connect Scan" time="1635939800" percent="46.62" remaining="2190" etc="1635941989"/>
+<taskprogress task="Connect Scan" time="1635939851" percent="49.81" remaining="1978" etc="1635941829"/>
+<taskprogress task="Connect Scan" time="1635939905" percent="53.11" remaining="1781" etc="1635941686"/>
+<taskprogress task="Connect Scan" time="1635939965" percent="56.70" remaining="1587" etc="1635941551"/>
+<taskprogress task="Connect Scan" time="1635940022" percent="60.39" remaining="1400" etc="1635941422"/>
+<taskprogress task="Connect Scan" time="1635940085" percent="64.37" remaining="1217" etc="1635941301"/>
+<taskprogress task="Connect Scan" time="1635940142" percent="68.42" remaining="1041" etc="1635941182"/>
+<taskprogress task="Connect Scan" time="1635940202" percent="72.59" remaining="874" etc="1635941076"/>
+<taskprogress task="Connect Scan" time="1635940265" percent="77.06" remaining="708" etc="1635940973"/>
+<taskprogress task="Connect Scan" time="1635940328" percent="81.57" remaining="552" etc="1635940879"/>
+<taskprogress task="Connect Scan" time="1635940391" percent="86.19" remaining="402" etc="1635940792"/>
+<taskprogress task="Connect Scan" time="1635940448" percent="91.08" remaining="251" etc="1635940699"/>
+<taskprogress task="Connect Scan" time="1635940517" percent="96.09" remaining="108" etc="1635940624"/>
+<taskend task="Connect Scan" time="1635940588" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1635940588"/>
+<taskend task="Service scan" time="1635940600" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1635940600"/>
+<taskend task="NSE" time="1635940609"/>
+<taskbegin task="NSE" time="1635940609"/>
+<taskend task="NSE" time="1635940611"/>
+<taskbegin task="NSE" time="1635940611"/>
+<taskend task="NSE" time="1635940611"/>
+<host starttime="1635937888" endtime="1635940611"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.251.193" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-responses" count="62929"/>
+<extrareasons reason="host-unreaches" count="2604"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.4" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.4</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 09:23:62:a2:18:62:83:69:04:40:62:32:97:ff:3c:cd (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDakZyfnq0JzwuM1SD3YZ4zyizbtc9AOvhk2qCaTwJHEKyyqIjBaElNv4LpSdtV7y/C6vwUfPS34IO/mAmNtAFquBDjIuoKdw9TjjPrVBVjzFxD/9tDSe+cu6ELPHMyWOQFAYtg1CV1TQlm3p6WIID2IfYBffpfSz54wRhkTJd/+9wgYdOwfe+VRuzV8EgKq4D2cbUTjYjl0dv2f2Th8WtiRksEeaqI1fvPvk6RwyiLdV5mSD/h8HCTZgYVvrjPShW9XPE/wws82/wmVFtOPfY7WAMhtx5kiPB11H+tZSAV/xpEjXQQ9V3Pi6o4vZdUvYSbNuiN4HI4gAWnp/uqPsoR&#xa;  256 33:66:35:36:b0:68:06:32:c1:8a:f6:01:bc:43:38:ce (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEMyTtxVAKcLy5u87ws+h8WY+GHWg8IZI4c11KX7bOSt85IgCxox7YzOCZbUA56QOlryozIFyhzcwOeCKWtzEsA=&#xa;  256 14:98:e3:84:70:55:e6:60:0c:c2:09:77:f8:b7:a6:1c (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOKY0jLSRkYg0+fTDrwGOaGW442T5k1qBt7l8iAkcuCk"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDakZyfnq0JzwuM1SD3YZ4zyizbtc9AOvhk2qCaTwJHEKyyqIjBaElNv4LpSdtV7y/C6vwUfPS34IO/mAmNtAFquBDjIuoKdw9TjjPrVBVjzFxD/9tDSe+cu6ELPHMyWOQFAYtg1CV1TQlm3p6WIID2IfYBffpfSz54wRhkTJd/+9wgYdOwfe+VRuzV8EgKq4D2cbUTjYjl0dv2f2Th8WtiRksEeaqI1fvPvk6RwyiLdV5mSD/h8HCTZgYVvrjPShW9XPE/wws82/wmVFtOPfY7WAMhtx5kiPB11H+tZSAV/xpEjXQQ9V3Pi6o4vZdUvYSbNuiN4HI4gAWnp/uqPsoR</elem>
+<elem key="fingerprint">092362a2186283690440623297ff3ccd</elem>
+<elem key="bits">2048</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEMyTtxVAKcLy5u87ws+h8WY+GHWg8IZI4c11KX7bOSt85IgCxox7YzOCZbUA56QOlryozIFyhzcwOeCKWtzEsA=</elem>
+<elem key="fingerprint">33663536b0680632c18af601bc4338ce</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOKY0jLSRkYg0+fTDrwGOaGW442T5k1qBt7l8iAkcuCk</elem>
+<elem key="fingerprint">1498e3847055e6600cc20977f8b7a61c</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="12340"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.6" extrainfo="(CentOS) PHP/5.4.16" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.6</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS GET HEAD POST TRACE&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>TRACE</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.6 (CentOS) PHP/5.4.16"><elem>Apache/2.4.6 (CentOS) PHP/5.4.16</elem>
+</script><script id="http-title" output="We&amp;#39;ve got some trouble | 404 - Resource not found"><elem key="title">We&amp;#39;ve got some trouble | 404 - Resource not found</elem>
+</script></port>
+</ports>
+<times srtt="698544" rttvar="512356" to="2747968"/>
+</host>
+<taskbegin task="NSE" time="1635940611"/>
+<taskend task="NSE" time="1635940611"/>
+<taskbegin task="NSE" time="1635940611"/>
+<taskend task="NSE" time="1635940611"/>
+<taskbegin task="NSE" time="1635940611"/>
+<taskend task="NSE" time="1635940611"/>
+<runstats><finished time="1635940611" timestr="Wed Nov  3 11:56:51 2021" summary="Nmap done at Wed Nov  3 11:56:51 2021; 1 IP address (1 host up) scanned in 2723.08 seconds" elapsed="2723.08" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

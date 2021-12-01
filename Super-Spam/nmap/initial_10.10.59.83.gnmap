@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Aug 24 20:55:07 2021 as: nmap -p-1000 -oA nmap/initial_10.10.59.83 10.10.59.83
+Host: 10.10.59.83 ()	Status: Up
+Host: 10.10.59.83 ()	Ports: 80/open/tcp//http///, 268/filtered/tcp//td-replica///	Ignored State: closed (998)
+# Nmap done at Tue Aug 24 20:55:45 2021 -- 1 IP address (1 host up) scanned in 38.00 seconds

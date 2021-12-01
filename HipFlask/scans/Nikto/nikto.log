@@ -1,0 +1,16 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.162.21
++ Target Hostname:    hipper.hipflasks.thm
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=GB/ST=Argyll and Bute/L=Oban/O=Hip Flasks Inc/CN=hipper.hipflasks.thm/emailAddress=webmaster@hipflasks.thm
+                   Ciphers:  TLS_AES_256_GCM_SHA384
+                   Issuer:   /C=GB/ST=Argyll and Bute/L=Oban/O=Hip Flasks Inc/CN=hipper.hipflasks.thm/emailAddress=webmaster@hipflasks.thm
++ Start Time:         2021-09-09 15:08:38 (GMT0)
+---------------------------------------------------------------------------
++ Server: waitress
++ Cookie session created without the secure flag
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'front-end-https' found, with contents: on
++ The site uses SSL and Expect-CT header is not present.

@@ -1,0 +1,8 @@
+/images (Status: 301)
+/admin (Status: 301)
+/css (Status: 301)
+/fonts (Status: 301)
+/swf (Status: 301)
+/connection (Status: 301)
+/stylesheets (Status: 301)
+/validation (Status: 301)

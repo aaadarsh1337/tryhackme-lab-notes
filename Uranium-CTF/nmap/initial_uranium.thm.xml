@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 24 21:03:06 2021 as: nmap -p-1000 -oA nmap/initial_uranium.thm uranium.thm -->
+<nmaprun scanner="nmap" args="nmap -p-1000 -oA nmap/initial_uranium.thm uranium.thm" start="1629838986" startstr="Tue Aug 24 21:03:06 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1-1000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.179.152" addrtype="ipv4"/>
+<hostnames>
+<hostname name="uranium.thm" type="user"/>
+</hostnames>
+</hosthint>
+<taskprogress task="Ping Scan" time="1629838986" percent="100.00" remaining="0" etc="1629838986"/>
+<host starttime="1629838986" endtime="1629839014"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.179.152" addrtype="ipv4"/>
+<hostnames>
+<hostname name="uranium.thm" type="user"/>
+<hostname name="uranium.thm" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="997">
+<extrareasons reason="conn-refused" count="997"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="206609" rttvar="44315" to="383869"/>
+</host>
+<runstats><finished time="1629839014" timestr="Tue Aug 24 21:03:34 2021" summary="Nmap done at Tue Aug 24 21:03:34 2021; 1 IP address (1 host up) scanned in 28.32 seconds" elapsed="28.32" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 24 21:03:34 2021 as: nmap -p- -oA nmap/initial_allports_uranium.thm uranium.thm -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap/initial_allports_uranium.thm uranium.thm" start="1629839014" startstr="Tue Aug 24 21:03:34 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.179.152" addrtype="ipv4"/>
+<hostnames>
+<hostname name="uranium.thm" type="user"/>
+</hostnames>
+</hosthint>

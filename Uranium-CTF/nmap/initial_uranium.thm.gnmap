@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Aug 24 21:03:06 2021 as: nmap -p-1000 -oA nmap/initial_uranium.thm uranium.thm
+Host: 10.10.179.152 (uranium.thm)	Status: Up
+Host: 10.10.179.152 (uranium.thm)	Ports: 22/open/tcp//ssh///, 25/open/tcp//smtp///, 80/open/tcp//http///	Ignored State: closed (997)
+# Nmap done at Tue Aug 24 21:03:34 2021 -- 1 IP address (1 host up) scanned in 28.32 seconds

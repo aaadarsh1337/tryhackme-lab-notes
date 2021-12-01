@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Thu, 09 Sep 2021 09:32:52 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: waitress
+Vary: Cookie
+Front-End-Https: on
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip

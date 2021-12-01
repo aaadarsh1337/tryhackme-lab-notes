@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 24 20:55:07 2021 as: nmap -p-1000 -oA nmap/initial_10.10.59.83 10.10.59.83 -->
+<nmaprun scanner="nmap" args="nmap -p-1000 -oA nmap/initial_10.10.59.83 10.10.59.83" start="1629838507" startstr="Tue Aug 24 20:55:07 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1-1000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.59.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1629838507" endtime="1629838545"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.59.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="998">
+<extrareasons reason="conn-refused" count="998"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="268"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="td-replica" method="table" conf="3"/></port>
+</ports>
+<times srtt="280378" rttvar="46782" to="467506"/>
+</host>
+<runstats><finished time="1629838545" timestr="Tue Aug 24 20:55:45 2021" summary="Nmap done at Tue Aug 24 20:55:45 2021; 1 IP address (1 host up) scanned in 38.00 seconds" elapsed="38.00" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
