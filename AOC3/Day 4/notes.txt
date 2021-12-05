@@ -1,0 +1,5 @@
+What valid password can you use to access the "santa" account?
+--> cookie
+
+What is the flag in Santa's itinerary?
+--> THM{SANTA_DELIVERS}

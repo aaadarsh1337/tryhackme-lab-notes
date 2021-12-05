@@ -1,0 +1,17 @@
+After finding Santa's account, what is their position in the company?
+--> The Boss!
+
+After finding McStocker's account, what is their position in the company?
+--> Build Manager
+
+After finding the account responsible for tampering, what is their position in the company?
+--> Mischief Manager
+
+What is the received flag when McSkidy fixes the Inventory Management System?
+--> THM{AOC_IDOR_2B34BHI3}
+
+If you want to learn more about IDOR vulnerabilities, we suggest trying out this room https://tryhackme.com/room/idor
+--> -:-
+
+Tasks released each day get progressively harder (but are still guided with walkthrough videos). Come back tomorrow for Day 2's task!
+--> -:-
