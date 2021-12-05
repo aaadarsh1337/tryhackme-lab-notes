@@ -1,0 +1,2 @@
+ What flag did you get when you disabled the plugin?
+--> THM{NO_MORE_BUTTMAS}
