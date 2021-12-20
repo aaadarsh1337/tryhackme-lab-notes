@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Mon Dec 13 19:05:08 2021 as: nmap -p-9999 -Pn -oN scan 10.10.252.184
+Nmap scan report for 10.10.252.184
+Host is up (0.22s latency).
+Not shown: 9994 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+135/tcp  open  msrpc
+1433/tcp open  ms-sql-s
+3389/tcp open  ms-wbt-server
+7680/tcp open  pando-pub
+
+# Nmap done at Mon Dec 13 19:06:47 2021 -- 1 IP address (1 host up) scanned in 98.91 seconds

@@ -1,0 +1,20 @@
+Complete the username: p.....
+--> pepper
+
+What is the OS version?
+--> 10.0.17763 N/A Build 17763
+
+What backup service did you find running on the system?
+--> IperiusSvc
+
+What is the path of the executable for the backup service you have identified?
+--> C:\Program Files (x86)\Iperius Backup\IperiusService.exe
+
+Run the whoami command on the connection you have received on your attacking machine. What user do you have?
+--> the-grinch-hack\thegrinch
+
+What is the content of the flag.txt file?
+--> THM-736635221
+
+The Grinch forgot to delete a file where he kept notes about his schedule! Where can we find him at 5:30?
+--> jazzercize

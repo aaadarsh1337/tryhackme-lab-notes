@@ -1,0 +1,23 @@
+What is the name of the S3 Bucket used to host the HR Website announcement?
+--> images.bestfestivalcompany.com
+
+What is the message left in the flag.txt object from that bucket?
+--> It's easy to get your elves data when you leave it so easy to find!
+
+What other file in that bucket looks interesting to you?
+--> wp-backup.zip
+
+What is the AWS Access Key ID in that file?
+--> AKIAQI52OJVCPZXFYAOI
+
+What is the AWS Account ID that access-key works for?
+--> 019181489476
+
+What is the Username for that access-key?
+--> ElfMcHR@bfc.com
+
+There is an EC2 Instance in this account. Under the TAGs, what is the Name of the instance?
+--> HR-Portal
+
+What is the database password stored in Secrets Manager?
+--> Winter2021

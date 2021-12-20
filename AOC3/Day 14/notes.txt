@@ -1,0 +1,11 @@
+How many pages did the dirb scan find with its default wordlist?
+--> 4
+
+How many scripts do you see in the /home/thegrinch/scripts folder?
+--> 4
+
+What are the five characters following $6$G in pepper's password hash?
+--> ZUP42
+
+What is the content of the flag.txt file on the Grinch's user’s desktop?
+--> DI3H4rdIsTheBestX-masMovie!

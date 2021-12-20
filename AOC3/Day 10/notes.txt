@@ -1,0 +1,23 @@
+Help McSkidy and run nmap -sT 10.10.190.156. How many ports are open between 1 and 100?
+--> 2
+
+What is the smallest port number that is open?
+--> 22
+
+What is the service related to the highest port number you found in the first question?
+--> http
+ 
+Now run nmap -sS 10.10.190.156. Did you get the same results? (Y/N)
+--> Y
+
+If you want Nmap to detect the version info of the services installed, you can use nmap -sV 10.10.190.156. What is the version number of the web server?
+--> Apache httpd 2.4.49
+
+By checking the vulnerabilities related to the installed web server, you learn that there is a critical vulnerability that allows path traversal and remote code execution. Now you can tell McSkidy that Grinch Enterprises used this vulnerability. What is the CVE number of the vulnerability that was solved in version 2.4.51?
+--> CVE-2021-42013
+
+You are putting the pieces together and have a good idea of how your web server was exploited. McSkidy is suspicious that the attacker might have installed a backdoor. She asks you to check if there is some service listening on an uncommon port, i.e. outside the 1000 common ports that Nmap scans by default. She explains that adding -p1-65535 or -p- will scan all 65,535 TCP ports instead of only scanning the 1000 most common ports. What is the port number that appeared in the results now?
+--> 20212
+
+What is the name of the program listening on the newly discovered port?
+--> telnetd

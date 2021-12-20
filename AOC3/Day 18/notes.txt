@@ -1,0 +1,11 @@
+What command will list container images stored in your local container registry?
+--> docker images
+
+What command will allow you to save a docker image as a tar archive?
+--> docker save
+
+What is the name of the file (including file extension) for the configuration, repository tags, and layer hash values stored in a container image?
+--> manifest.json
+
+What is the token value you found for the bonus challenge?
+--> 7095b3e9300542edadbc2dd558ac11fa

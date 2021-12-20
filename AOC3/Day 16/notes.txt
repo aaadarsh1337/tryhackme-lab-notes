@@ -1,0 +1,23 @@
+What is the operator's username?
+--> GrinchWho31
+
+What social media platform is the username associated with?
+--> Twitter
+
+What is the cryptographic identifier associated with the operator?
+--> 1GW8QR7CWW3cpvVPGMCF5tZz4j96ncEgrVaR
+
+What platform is the cryptographic identifier associated with?
+--> keybase.io
+
+What is the bitcoin address of the operator?
+--> bc1q5q2w2x6yka5gchr89988p2c8w8nquem6tndw2f
+
+What platform does the operator leak the bitcoin address on? 
+--> GitHub
+
+What is the operator's personal email?
+--> DonteHeath21@gmail.com
+
+What is the operator's real name?
+--> Donte Heath
