@@ -1,0 +1,8 @@
+What is the username of the other user on the system?
+--> emily
+
+What is the NTLM hash of this user?
+--> 8af326aa4850225b75c592d4ce19ccf5
+
+What is the password for this user?
+--> 1234567890

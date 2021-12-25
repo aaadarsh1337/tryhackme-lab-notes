@@ -1,0 +1,20 @@
+What command was executed as Elf McNealy to add a new user to the machine?
+--> Invoke-Nightmare
+
+What user executed the PowerShell file to send the password.txt file from the administrator's desktop to a remote server?
+--> adm1n
+
+What was the IP address of the remote server? What was the port used for the remote connection? (format: IP,Port)
+--> 10.10.148.96, 4321
+
+What was the encryption key used to encrypt the contents of the text file sent to the remote server?
+--> j3pn50vkw21hhurbqmxjlpmo9doiukyb
+
+What application was used to delete the password.txt file?
+--> sdelete.exe
+
+What is the date and timestamp the logs show that password.txt was deleted? (format: MM/DD/YYYY H:MM:SS PM)
+--> 11/11/2021 7:29:27 AM
+
+What were the contents of the deleted password.txt file?
+--> Mission Control: letitsnowletitsnowletitsnow
